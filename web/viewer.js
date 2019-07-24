@@ -1730,7 +1730,11 @@ var PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 var validateFileURL;
 {
-  var HOSTED_VIEWER_ORIGINS = ['https://dev-uploadphotos.s3.amazonaws.com', 'null', 'http://mozilla.github.io', 'https://mozilla.github.io'];
+  var HOSTED_VIEWER_ORIGINS = ['https://giulio426.github.io', 
+  'https://dev-uploadphotos.s3.amazonaws.com', 
+  'null', 
+  'http://mozilla.github.io', 
+  'https://mozilla.github.io'];
 
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
